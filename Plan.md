@@ -18,8 +18,8 @@
 
 ### 1. **Backend (Spring Boot)**
 
-- [ ] Configuration initiale : Java + Spring Boot via Spring Initializr
-- [ ] Modélisation : Classe `User` avec validations (nom, prénom, email)
+- [x] Configuration initiale : Java + Spring Boot via Spring Initializr
+- [x] Modélisation : Classe `User` avec validations (nom, prénom, email)
 - [ ] **Persistence avec Spring Data JPA** :
     - Interfaces `Repository` basées sur `JpaRepository`
     - Méthodes CRUD standards (save, findById, findAll, delete)
