@@ -2,15 +2,15 @@
 
 ## 🧰 Technologies principales
 
-|Technologie|Rôle dans le projet|
-|---|---|
-|**Angular**|Frontend (formulaire d’inscription, interface utilisateur)|
-|**Spring Boot**|Backend Java (API REST, logique métier)|
-|**Base de données SQL (H2/PostgreSQL)**|Stockage des inscriptions|
-|**Microsoft Graph API**|Intégration avec Microsoft Teams (envoi de message, réunion)|
-|**OAuth2 (Azure AD)**|Authentification sécurisée pour accéder à Graph API|
-|**Git**|Gestion de version|
-|**Notion**|Documentation et suivi du projet|
+| Technologie                             | Rôle dans le projet                                          |
+| --------------------------------------- | ------------------------------------------------------------ |
+| **Angular**                             | Frontend (formulaire d’inscription, interface utilisateur)   |
+| **Spring Boot**                         | Backend Java (API REST, logique métier)                      |
+| **Base de données SQL (H2/PostgreSQL)** | Stockage des inscriptions                                    |
+| **Microsoft Graph API**                 | Intégration avec Microsoft Teams (envoi de message, réunion) |
+| **OAuth2 (Azure AD)**                   | Authentification sécurisée pour accéder à Graph API          |
+| **Git**                                 | Gestion de version                                           |
+| **Obsidian**                            | Documentation et suivi du projet                             |
 
 ---
 
@@ -32,16 +32,16 @@
 
 ### 2. **Base de données**
 
-- [ ] Environnement dev : H2 avec console de debug
+- [x] Environnement dev : H2 avec console de debug
 - [ ] Préparation prod : Migration PostgreSQL (Flyway)
-- [ ] Architecture JPA : Entités et relations via Spring Data
+- [x] Architecture JPA : Entités et relations via Spring Data
 - [ ] Sécurité transactionnelle (`@Transactional`)
 
 ---
 
 ### 3. **Frontend Angular**
 
-- [ ] Setup technique : Angular + Node.js LTS
+- [x] Setup technique : Angular + Node.js LTS
 - [ ] Interface inscription : Formulaire validé
 - [ ] Communication backend :
     - Gestion élégante des erreurs avec feedback utilisateur
