@@ -35,18 +35,18 @@
 - [x] Environnement dev : H2 avec console de debug
 - [ ] Préparation prod : Migration PostgreSQL (Flyway)
 - [x] Architecture JPA : Entités et relations via Spring Data
-- [ ] Sécurité transactionnelle (`@Transactional`)
+- [x] Sécurité transactionnelle (`@Transactional`)
 
 ---
 
 ### 3. **Frontend Angular**
 
 - [x] Setup technique : Angular + Node.js LTS
-- [ ] Interface inscription : Formulaire validé
-- [ ] Communication backend :
+- [x] Interface inscription : Formulaire validé
+- [x] Communication backend :
     - Gestion élégante des erreurs avec feedback utilisateur
-- [ ] UX : Système de notifications moderne
-- [ ] Expérience fluide : Indicateurs de chargement
+- [x] UX : Système de notifications moderne
+- [x] Expérience fluide : Indicateurs de chargement
 
 ---
 
