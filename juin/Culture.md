@@ -20,3 +20,22 @@
 	- Vérification du délai entre envoie du code et réponse au formulaire (~15 min)
 	- Enregistrement du nouveau mot de passe (dans la deuxième BDD ?)
 	- Mise à jour de `last update` dans la BDD
+
+
+- Users :
+	- long id
+	- string email
+	- LocalDateTime lastReset
+
+- Passwords :
+	- long id
+	- long userId
+	- long passwordHash
+	- LDT changedAt
+
+- Tokens :
+	- long id
+	- long userId
+	- string tokenValue (uuid)
+	- LDT expirationTime
+	- Status {Active, Inactive, Expired}
